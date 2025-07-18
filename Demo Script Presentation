@@ -1,0 +1,31 @@
+"We're here to present the Kana Secure Messaging Portal – a key initiative to streamline our internal and external communications, making them more efficient, secure, and user-friendly. This portal is built with enterprise standards in mind."
+
+"Let's quickly review the technology powering this portal.
+
+Our Frontend Architecture is built on Angular 20+ with TypeScript, ensuring a robust, scalable, and maintainable application. This aligns with modern enterprise frameworks and is compatible with Angular versions commonly adopted across Citi.
+
+For the UI, we're using Angular Material Design, providing a consistent and responsive user experience.
+
+The system is modular, designed with a clear Core Components Structure that includes a strong Authentication Layer for security.
+
+Critically, we will leverage a Microservices Integration Strategy. You can see the distinct services for Authentication, Message Management, and User Management. This microservices approach provides scalability and resilience, critical for large-scale operations.
+
+Future Scope 
+The main integration work happens in 2 core files: auth.service.ts and message.service.ts, plus environment configuration. Everything else remains the same!
+Update environment files with actual microservice URLs
+Import HttpClientModule in main.ts
+eplace localStorage with HTTP calls in AuthService
+Replace localStorage with HTTP calls in MessageService
+enableMockData: false  // Switch from true to false
+
+"Now, let's see how this translates into a practical user experience.
+
+(Authentication - Briefly show login) "Users begin with a secure login process, safeguarding access to sensitive information." (Log in quickly).
+
+(Dashboard - Briefly show dashboard) "Once logged in, the Dashboard provides a quick glance at key statistics, offering immediate insights into message activity."
+
+(Message Creation - Navigate to SendMessage, quickly show fields) "For Message Creation, the process is intuitive. Users can easily compose new messages, selecting appropriate topics, with built-in validation ensuring data accuracy." (Click 'Send' or similar, show a quick success message).
+
+(Inbox & Management - Navigate to Inbox, show search/filter, click on a message) "The Inbox is the central hub for managing communications. Notice the real-time search and filter capabilities, allowing users to quickly find specific messages. When a message is selected, users can view details and, importantly, reply directly, enabling efficient two-way communication." (Briefly show a message dialog and the reply field).
+
+(Security & Responsiveness - Briefly mention) "The portal incorporates role-based access control for data security and is fully mobile-responsive, ensuring accessibility across all devices."
