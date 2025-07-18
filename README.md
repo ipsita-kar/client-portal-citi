@@ -25,22 +25,6 @@ A secure, scalable, and modern messaging platform built with Angular and microse
 ```
 <img width="441" height="447" alt="image" src="https://github.com/user-attachments/assets/f2b51771-1bcc-4862-9c80-9747e919e4a4" />
 
-├── Authentication Layer
-│ ├── LoginComponent (Secure login form)
-│ ├── AuthService (Session management)
-│ └── AuthGuard (Route protection)
-├── Layout & Navigation
-│ ├── LayoutComponent (Main shell with sidebar)
-│ ├── Responsive sidebar navigation
-│ └── Environment indicator badges
-├── Business Logic Components
-│ ├── HomeComponent (Dashboard & statistics)
-│ ├── SendMessageComponent (Message composition)
-│ ├── InboxComponent (Message listing & search)
-│ └── MessageDialogComponent (Message viewer & reply)
-└── Services Layer
-├── MessageService (CRUD operations)
-└── Data persistence layer
 
 ```
 
